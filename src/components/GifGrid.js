@@ -7,7 +7,7 @@ const GifGrid = ({videogame}) => {
 
     const {data:images, loading} = useFetchGifs(videogame);
     //data:images la data aca se llama images
-
+    
 
     return (
         <>
@@ -15,7 +15,7 @@ const GifGrid = ({videogame}) => {
         {
             loading && <p>Cargando...</p>
         }
-        <div className="card-grid animate__animated animate__fadeIn">
+        <div className="card-grid animate__animated animate__slideInDown">
                 {
                     //Carga cada imagen en un GifGridItem personalizado
                     images.map( img=> (

@@ -1,0 +1,2 @@
+*{font-family:Helvetica}body{padding:65px}input{width:100%;font-size:1.2rem;color:grey}.card-grid{display:flex;flex-direction:row;flex-wrap:wrap;align-content:stretch}.card:nth-child(odd){background-color:#eee}.card:hover{cursor:pointer;-webkit-animation:tada 1.4s;animation:tada 1.4s}.card{align-content:center;background-color:#fff;border:1px solid grey;border-radius:6px;margin-bottom:20px;margin-right:20px;overflow:hidden;transition:.5s}.card p{padding:10px;text-align:center}.card img{max-height:170px}
+/*# sourceMappingURL=main.b983464b.chunk.css.map */
