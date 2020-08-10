@@ -11,6 +11,7 @@ const GifExpertApp = () => {
     return (
         <>
             <h2>GifExpertApp</h2>
+            <h3>Escribe lo que quieras y te mostraré diez gifs</h3>
             <AddCategory setVideogames={setVideogames}/>
             <hr/>
             <ol>
